@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-19T13:07:31 IST" name="Suite" finished-at="2023-08-19T13:09:45 IST" duration-ms="134063">
+    <groups>
+    </groups>
+    <test started-at="2023-08-19T13:07:31 IST" name="Test" finished-at="2023-08-19T13:09:45 IST" duration-ms="134063">
+      <class name="com.seleniumtesting.seleniumMavenProject.seleniumTestDemo">
+        <test-method is-config="true" signature="loginToTheSalesforce()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="loginToTheSalesforce" finished-at="2023-08-19T13:07:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheSalesforce -->
+        <test-method is-config="true" signature="loginToTheSalesforce()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="loginToTheSalesforce" finished-at="2023-08-19T13:07:31 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheSalesforce -->
+        <test-method is-config="true" signature="loginToTheSalesforce()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="loginToTheSalesforce" finished-at="2023-08-19T13:07:31 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToTheSalesforce -->
+        <test-method signature="openSalesApp()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="openSalesApp" finished-at="2023-08-19T13:08:22 IST" duration-ms="50759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openSalesApp -->
+        <test-method signature="recruitmentSignupLoginProcess()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="recruitmentSignupLoginProcess" finished-at="2023-08-19T13:09:34 IST" duration-ms="122389" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/article/div/flowruntime-flow/flowruntime-lwc-body/div/flowruntime-list-container/div/flowruntime-base-section/div/flowruntime-screen-field[2]/flowruntime-lwc-field/div/flowruntime-radio-button-input-lwc/fieldset/div/span[2]/label/span[1]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c5656fc48d664c00a495739e6c666e5, findElement {using=xpath, value=/html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/article/div/flowruntime-flow/flowruntime-lwc-body/div/flowruntime-list-container/div/flowruntime-base-section/div/flowruntime-screen-field[2]/flowruntime-lwc-field/div/flowruntime-radio-button-input-lwc/fieldset/div/span[2]/label/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHUBHA~1.NAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63845/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c5656fc48d664c00a495739e6c666e5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/article/div/flowruntime-flow/flowruntime-lwc-body/div/flowruntime-list-container/div/flowruntime-base-section/div/flowruntime-screen-field[2]/flowruntime-lwc-field/div/flowruntime-radio-button-input-lwc/fieldset/div/span[2]/label/span[1]"}
+  (Session info: chrome=115.0.5790.171)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6c5656fc48d664c00a495739e6c666e5, findElement {using=xpath, value=/html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div/div/div/div/div[1]/div[1]/div[1]/article/div/flowruntime-flow/flowruntime-lwc-body/div/flowruntime-list-container/div/flowruntime-base-section/div/flowruntime-screen-field[2]/flowruntime-lwc-field/div/flowruntime-radio-button-input-lwc/fieldset/div/span[2]/label/span[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHUBHA~1.NAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63845}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63845/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c5656fc48d664c00a495739e6c666e5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at com.seleniumtesting.seleniumMavenProject.seleniumTestDemo.recruitmentSignupLoginProcess(seleniumTestDemo.java:163)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recruitmentSignupLoginProcess -->
+        <test-method signature="leadConversionProcess()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:07:31 IST" name="leadConversionProcess" finished-at="2023-08-19T13:09:44 IST" duration-ms="132855" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a title="..." href="/lightning/r/0062w00000N7jdsAAB/view">Waelchi Inc-</a> is not clickable at point (159, 175). Other element would receive the click: <div role="alertdialog" aria-describedby="toastDescription2820:0" data-key="info" class="slds-theme--info slds-notify--toast slds-notify slds-notify--toast forceToastMessage" data-aura-rendered-by="2822:0" data-aura-class="forceToastMessage" aria-label="Info">...</div>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d112442a1e579aedabb2524e2037b35d, clickElement {id=9148134E679EB12B7F3E0F35D83D841E_element_692}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHUBHA~1.NAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63843}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63843/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d112442a1e579aedabb2524e2037b35d)] -> xpath: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[4]/div/div/div[1]/div[1]/div[1]/div/div/lst-breadcrumbs/nav/ol/li[2]/a]
+Session ID: d112442a1e579aedabb2524e2037b35d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a title="..." href="/lightning/r/0062w00000N7jdsAAB/view">Waelchi Inc-</a> is not clickable at point (159, 175). Other element would receive the click: <div role="alertdialog" aria-describedby="toastDescription2820:0" data-key="info" class="slds-theme--info slds-notify--toast slds-notify slds-notify--toast forceToastMessage" data-aura-rendered-by="2822:0" data-aura-class="forceToastMessage" aria-label="Info">...</div>
+  (Session info: chrome=115.0.5790.171)
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d112442a1e579aedabb2524e2037b35d, clickElement {id=9148134E679EB12B7F3E0F35D83D841E_element_692}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.171, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\SHUBHA~1.NAV\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:63843}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63843/devtoo..., se:cdpVersion: 115.0.5790.171, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d112442a1e579aedabb2524e2037b35d)] -> xpath: /html/body/div[4]/div[1]/section/div[1]/div[2]/div[2]/div[1]/div/div/div/div[4]/div/div/div[1]/div[1]/div[1]/div/div/lst-breadcrumbs/nav/ol/li[2]/a]
+Session ID: d112442a1e579aedabb2524e2037b35d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at com.seleniumtesting.seleniumMavenProject.seleniumTestDemo.leadConversionProcess(seleniumTestDemo.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leadConversionProcess -->
+        <test-method is-config="true" signature="logoutFromSalesforce(org.testng.ITestResult)[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:08:22 IST" name="logoutFromSalesforce" finished-at="2023-08-19T13:08:25 IST" duration-ms="3167" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=openSalesApp status=SUCCESS method=seleniumTestDemo.openSalesApp()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSalesforce -->
+        <test-method is-config="true" signature="logoutFromSalesforce(org.testng.ITestResult)[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:09:34 IST" name="logoutFromSalesforce" finished-at="2023-08-19T13:09:35 IST" duration-ms="1251" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=recruitmentSignupLoginProcess status=FAILURE method=seleniumTestDemo.recruitmentSignupLoginProcess()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSalesforce -->
+        <test-method is-config="true" signature="logoutFromSalesforce(org.testng.ITestResult)[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2]" started-at="2023-08-19T13:09:44 IST" name="logoutFromSalesforce" finished-at="2023-08-19T13:09:45 IST" duration-ms="1129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=leadConversionProcess status=FAILURE method=seleniumTestDemo.leadConversionProcess()[pri:0, instance:com.seleniumtesting.seleniumMavenProject.seleniumTestDemo@235834f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromSalesforce -->
+      </class> <!-- com.seleniumtesting.seleniumMavenProject.seleniumTestDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
