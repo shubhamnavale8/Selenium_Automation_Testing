@@ -1,4 +1,4 @@
-package com.seleniumtesting.salesforcelogin;
+package com.seleniumtesting.seleniumMavenProject;
 import java.io.File;
 import java.io.FileInputStream;
 
@@ -10,7 +10,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class LoginCredentials {
 	private static int loginNum;
-	LoginCredentials(int num){
+	public LoginCredentials(int num){
 		this.loginNum=num;
 	}
 	public static String username() {
