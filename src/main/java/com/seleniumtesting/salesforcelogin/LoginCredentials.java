@@ -1,4 +1,4 @@
-package com.seleniumtesting.seleniumMavenProject;
+package com.seleniumtesting.salesforcelogin;
 import java.io.File;
 import java.io.FileInputStream;
 
