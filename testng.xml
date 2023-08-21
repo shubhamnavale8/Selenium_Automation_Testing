@@ -3,7 +3,7 @@
 <suite thread-count="3" parallel="methods" name="Suite">
   <test thread-count="3" parallel="methods" name="Test">
     <classes>
-      <!-- all test cases are present in the class -->
+      <!-- all test cases are present in the class new testcases-->
       <class name="com.seleniumtesting.seleniumMavenProject.seleniumTestDemo"/>
       
     </classes>
