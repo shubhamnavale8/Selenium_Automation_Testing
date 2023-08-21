@@ -54,10 +54,7 @@
     <scope>test</scope>
 </dependency>
 
-<dependency>
-    <groupId>org.jenkins-ci.main</groupId>
-    <artifactId>maven-plugin</artifactId>
-</dependency>
+
 
     <!-- <dependency>
       <groupId>junit</groupId>
